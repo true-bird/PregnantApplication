@@ -6,13 +6,11 @@
 - Select the subway station and choose the train you want to take.
 - Check the remaining pregnant women on the train and reserve the pregnant women.
 
-![pregnantApp](https://user-images.githubusercontent.com/25261274/76843888-cf85a900-687f-11ea-94c0-e550266af528.gif)
+![pregnantApp](https://user-images.githubusercontent.com/25261274/76848936-d6181e80-6887-11ea-9282-8102cd20ef1e.gif)
 
 ## Features
 - Using the public data portal's real-time arrival information API
 - Create a virtual health center server and a pregnant seat management server to provide pregnant women authentication and pregnant seat reservation services.
-
-## Demo
 
 ## How to test
 - Run after 'New_EX_Application' import through Android studio
