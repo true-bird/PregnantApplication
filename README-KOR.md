@@ -6,13 +6,11 @@
 - 지하철 역을 선택하여 타고자 하는 열차를 선택
 - 열차에 남은 임산부석을 확인하여 임산부석을 예약
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/NUS4N-Ldxn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![pregnantApp](https://user-images.githubusercontent.com/25261274/76848936-d6181e80-6887-11ea-9282-8102cd20ef1e.gif)
 
 ## 특징
 - 공공데이터의 지하철 실시간 도착 정보 오픈 API 사용
 - 가상의 보건소 서버와 임산부석 관리 서버를 만들어 임산부 인증과 임산부석 예약 서비스 제공
-
-## 데모
 
 ## 테스트
 - 안드로이드 스튜디오에 'New_EX_Application' import 하여 실행
