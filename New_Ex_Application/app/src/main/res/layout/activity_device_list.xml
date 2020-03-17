@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeviceListActivity">
+    <TextView android:id="@+id/title_paired_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스캔 중..."
+        android:background="@color/darker_gray"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        android:padding="10dp"/>
+    <TextView android:id="@+id/explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핀 번호를 입력하지 말고\n기다려 주세요"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"/>
+
+    <RelativeLayout
+        android:layout_marginTop="45dp"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BlockFragment">
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/train_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/trafficseat" />
+
+        <ImageView
+            android:id="@+id/check_left_seat"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="73dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/empty_icon" />
+
+        <ImageView
+            android:id="@+id/check_right_seat"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="149dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/empty_icon" />
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:background="#e9e9e9" />
+
+    <ListView android:id="@+id/new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:stackFromBottom="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/scan_cancel_button"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="스캔 취소"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">New Ex Application</string>
+    <string name="title_activity_sub">SubActivity</string>
+    <string name="info_title">실시간 지하철 도착 정보</string>
+    <string name="prev_station">이전역</string>
+    <string name="stop_station">정차역</string>
+    <string name="next_station">다음역</string>
+    <string name="no_arrive">도착정보가 없습니다.</string>
+    <string name="sublineimg">sublineimg</string>
+    <string name="no_train">-</string>
+    <string name="res_seat">좌석 예약</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_check_reserve">CheckReserve</string>
+
+
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+
+
+</resources>

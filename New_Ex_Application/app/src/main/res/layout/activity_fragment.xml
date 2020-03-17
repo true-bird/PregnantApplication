@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlockFragment">
+        <TextView
+            android:id="@+id/number"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="호차"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/train_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/trafficseat" />
+
+        <ImageView
+            android:id="@+id/left_seat"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="147dp"
+            android:layout_marginTop="73dp"
+            android:src="@drawable/empty_icon" />
+
+        <ImageView
+            android:id="@+id/right_seat"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="73dp"
+            android:layout_marginEnd="149dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/empty_icon" />
+
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="65dp"
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rleft_seat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/empty_icon"
+                    android:background="@drawable/empty_icon_sl"/>
+
+                <RadioButton
+                    android:layout_marginLeft="17dp"
+                    android:id="@+id/rright_seat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/empty_icon_sl"/>
+
+
+        </RadioGroup>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+    <TextView
+        android:layout_marginLeft="35dp"
+        android:id="@+id/block_index"
+        android:padding="3dp"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+    <RelativeLayout
+        android:id="@+id/show_detail"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginRight="35dp">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/train_block"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/trainblock"/>
+        <TextView
+            android:id="@+id/block_seat"
+            android:padding="3dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rounded_1"
+            android:gravity="center"
+            android:alpha="0.8"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:text="잔여좌석"/>
+    </RelativeLayout>
+</RelativeLayout>
