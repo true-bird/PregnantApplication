@@ -14,7 +14,7 @@
 
 ## 테스트
 - 안드로이드 스튜디오에 `New_EX_Application` import 하여 실행
-  - 또는 [pregnantApp.apk](https://github.com/true-bird/PregnantApplication/tree/master/New_Ex_Application/app/release/pregnantApp.apk) 파일을 휴대폰에 다운로드
+  - 또는 [pregnantApp.apk](https://github.com/true-bird/PregnantApplication/tree/master/New_Ex_Application/app/release/pregnantApp.apk) 파일을 휴대폰에 다운로드 후 설치
 - 테스트용 임산부 번호를 입력하여 인증
   - _'111111111'_
   - _'222222222'_
