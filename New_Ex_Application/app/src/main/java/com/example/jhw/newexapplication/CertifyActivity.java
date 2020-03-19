@@ -97,7 +97,7 @@ public class CertifyActivity extends AppCompatActivity {
 
         protected void onPostExecute(String result) { // doInBackground의 결과를 인자로 유효한 임산부 번호인지 확인
             mJsonString = result;
-            if(mJsonString.equals("")) { // 결과 값이 없을 경우
+            if(mJsonString==null || mJsonString.equals("")) { // 결과 값이 없을 경우
                 Toast.makeText(CertifyActivity.this,"등록되지 않은 임산부 번호입니다.",Toast.LENGTH_SHORT).show();
                 cancelCustomProgressDialog(); // 로딩 UI 끄기
             } else { // 결과 값이 있을 경우
@@ -116,7 +116,6 @@ public class CertifyActivity extends AppCompatActivity {
 
             String serverURL = "http://" + IP_ADDRESS + "/checkpreg.php";
             String postParameters = "pregnum=" + strings[0];
-
             try {
                 URL url = new URL(serverURL);
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
