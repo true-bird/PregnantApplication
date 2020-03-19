@@ -9,11 +9,12 @@
 ![pregnantApp](https://user-images.githubusercontent.com/25261274/76848936-d6181e80-6887-11ea-9282-8102cd20ef1e.gif)
 
 ## Features
-- Using the public data portal's real-time arrival information API
+- Using the public data portal's real-time arrival information API.
 - Create a virtual health center server and a pregnant seat management server to provide pregnant women authentication and pregnant seat reservation services.
 
 ## How to test
-- Run after 'New_EX_Application' import through Android studio
+- Import and run 'New_EX_Application' through Android Studio.
+  - or Download [pregnantApp.apk](https://github.com/true-bird/PregnantApplication/tree/master/New_Ex_Application/app/release/pregnantApp.apk) file to your mobile phone.
 - Enter the test pregnant woman number for authentication.
   - _'111111111'_
   - _'222222222'_
@@ -21,11 +22,11 @@
   - _'444444444'_
 
 ## How to Install and Run
-- `mysql/project_1.sql` import in Mysql
-- Copy files within `www/html/` in Apache home directory
-  - Modify the contents of `dbcon.php` to fit your Mysql account
-- `New_EX_Application` import to Android studio
-  - Modify the server ip address of the *IP_ADDRESS* variable in `MainActivity.java`
+- `mysql/project_1.sql` import in Mysql.
+- Copy files within `www/html/` in Apache home directory.
+  - Modify the contents of `dbcon.php` to fit your Mysql account.
+- `New_EX_Application` import to Android studio.
+  - Modify the server ip address of the *IP_ADDRESS* variable in `MainActivity.java`.
 
 ## Development environment
 - Apache 2.4
