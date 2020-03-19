@@ -13,7 +13,7 @@
 - Create a virtual health center server and a pregnant seat management server to provide pregnant women authentication and pregnant seat reservation services.
 
 ## How to test
-- Import and run 'New_EX_Application' through Android Studio.
+- Import and run `New_EX_Application` through Android Studio.
   - or Download [pregnantApp.apk](https://github.com/true-bird/PregnantApplication/tree/master/New_Ex_Application/app/release/pregnantApp.apk) file to your mobile phone.
 - Enter the test pregnant woman number for authentication.
   - _'111111111'_
