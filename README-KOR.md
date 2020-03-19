@@ -13,7 +13,7 @@
 - 가상의 보건소 서버와 임산부석 관리 서버를 만들어 임산부 인증과 임산부석 예약 서비스 제공
 
 ## 테스트
-- 안드로이드 스튜디오에 'New_EX_Application' import 하여 실행
+- 안드로이드 스튜디오에 `New_EX_Application` import 하여 실행
   - 또는 [pregnantApp.apk](https://github.com/true-bird/PregnantApplication/tree/master/New_Ex_Application/app/release/pregnantApp.apk) 파일을 휴대폰에 다운로드
 - 테스트용 임산부 번호를 입력하여 인증
   - _'111111111'_
